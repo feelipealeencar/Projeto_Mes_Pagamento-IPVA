@@ -21,6 +21,16 @@ int main()
     switch(placa)
     {
         case 1 : cout << "Mes pagamento: Fevereiro"; break;
+        case 2 : cout << "Mes pagamento: Fevereiro"; break;
+        case 3 : cout << "Mes pagamento: Fevereiro"; break;
+        case 4 : cout << "Mes pagamento: Marco"; break;
+        case 5 : cout << "Mes pagamento: Marco"; break;
+        case 6 : cout << "Mes pagamento: Marco"; break;
+        case 7 : cout << "Mes pagamento: Abril"; break;
+        case 8 : cout << "Mes pagamento: Abril"; break;
+        case 9 : cout << "Mes pagamento: Abril"; break;
+        case 0 : cout << "Mes pagamento: Abril"; break;
+        default: cout << "Final invalido"; break;
     }
     return 0;
 }
