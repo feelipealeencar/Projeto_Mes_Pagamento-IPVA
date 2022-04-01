@@ -16,13 +16,11 @@ int main()
         cout << "Tipo de veiculo escolhido: CARRO " << endl;
         cout << endl;
         cout << "Digite o final da placa: ";
-
+        cin >> placa;
     }
-
-
-
-
-
-
+    switch(placa)
+    {
+        case 1 : cout << "Mes pagamento: Fevereiro"; break;
+    }
     return 0;
 }
