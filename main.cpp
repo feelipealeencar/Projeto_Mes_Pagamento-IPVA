@@ -32,5 +32,12 @@ int main()
         case 0 : cout << "Mes pagamento: Abril"; break;
         default: cout << "Final invalido"; break;
     }
+    if (veiculo == 2)
+    {
+        cout << "Tipo de veiculo escolhido: CAMINHAO " << endl;
+        cout << endl;
+        cout << "Digite o final da placa: ";
+        cin >> placa;
+    }
     return 0;
 }
