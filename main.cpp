@@ -2,10 +2,13 @@
 
 using namespace std;
 
+#define final_placa cout << "Digite o final da placa: ";
+
 int main()
 {
     // variable
     int veiculo = 1, placa;
+
 
     // start
     cout << "Digite 1 para carro ou 2 para caminhao: ";
@@ -15,7 +18,7 @@ int main()
     {
         cout << "Tipo de veiculo escolhido: CARRO " << endl;
         cout << endl;
-        cout << "Digite o final da placa: ";
+        final_placa
         cin >> placa;
     }
     switch(placa)
@@ -36,7 +39,7 @@ int main()
     {
         cout << "Tipo de veiculo escolhido: CAMINHAO " << endl;
         cout << endl;
-        cout << "Digite o final da placa: ";
+        final_placa
         cin >> placa;
     }
     return 0;
